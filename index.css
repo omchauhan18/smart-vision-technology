@@ -1,0 +1,143 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+header h1 {
+    font-size: 3rem;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: -60px;
+}
+
+/* Upload Section */
+.upload-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.upload-box {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px dashed #2575fc;
+    border-radius: 12px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-box:hover {
+    background-color: #f0f8ff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.upload-box p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.upload-box label {
+    padding: 12px 25px;
+    background-color: #6a11cb;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.upload-box label:hover {
+    background-color: #2575fc;
+}
+
+.upload-box input[type="file"] {
+    display: none; /* Hide the default file input */
+}
+
+.upload-section h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.upload-section .upload-icon {
+    font-size: 50px;
+    color: #6a11cb;
+    margin-bottom: 20px;
+}
+
+.upload-box p.or {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #999;
+    margin: 20px 0;
+}
+
+
+.image-box {
+    min-width: 150px;
+    margin-right: 10px;
+}
+
+button.btn-primary{
+    margin-left: 10px;
+}
+
+
+/* Button Styling */
+.btn-primary {
+    padding: 12px 25px;
+    background-color: #2575fc;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #6a11cb;
+}
+
+
+#loading-screen {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 9999;
+    text-align: center;
+    padding-top: 20%;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="result.css">
+</head>
+<body>
+
+  <!-- Back Button -->
+  <a href="index.html" class="btn btn-secondary back-btn">Back</a>
+
+  <!-- Centered Card Layout -->
+  <div class="container mt-4 d-flex justify-content-center">
+    <div class="col-md-4 text-center">
+      <!-- Card Component -->
+      <div class="card">
+        <img src="tomatoes.jpeg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Category: Vegetable</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 text-center">
+      <!-- Info Container -->
+      <div class="info">
+        <div class="info-row">
+          <strong>Name:</strong> <span id="brand">Tomato</span>
+        </div>
+        <!-- <div class="info-row">
+          <strong>Variety/Flavor:</strong> <span id="variety">Classic Salted</span>
+        </div> -->
+        <div class="info-row">
+          <strong>Days left:</strong> <span id="expiry">0 (Rotten)</span>
+        </div>
+        <div class="info-row">
+          <strong>Healthy:</strong> <span id="health">No</span>
+        </div>
+        <div class="info-row">
+            <strong>Count Number of Items:</strong> <span id="health">2</span>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Clean, modern font */
+    background-color: #cfcfcf; /* Light gray background for contrast */
+    color: #333; /* Dark text color for readability */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding around the page */
+}
+
+/* Style for the Back button */
+.back-btn {
+    position: absolute;
+    margin-top: 15px; /* Adjust margin for better placement */
+    margin-left: 15px;
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for a more button-like appearance */
+    background-color: #2575fc; /* Bootstrap primary color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for Back button */
+.back-btn:hover {
+    background-color: #6a11cb; /* Darker blue on hover */
+}
+
+/* Card styling */
+.card {
+    margin-top: 50px;
+    border: none; /* Remove default border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    overflow: hidden; /* Rounded corners on image */
+}
+
+/* Hover effect on the card */
+.card:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Info Row Styling */
+.info-row {
+    border: 1px solid #007bff; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Increased padding for better spacing */
+    margin-bottom: 15px; /* Space between rows */
+    background-color: #ffffff; /* White background for info rows */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect on info rows */
+.info-row:hover {
+    background-color: #aacdff; /* Light blue background on hover */
+}
+
+/* Optional: Text alignment */
+.info-row strong {
+    margin-right: 5px; /* Space between label and value */
+    color: #007bff; /* Brand color for labels */
+}
+
+/* Info container styling */
+.info {
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: #ffffff; /* White background for the info section */
+    border: 1px solid #e0e0e0; /* Light border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding for the entire info container */
+}
+
+/* Headings in the card */
+.card-title {
+    font-weight: bold;
+    color: #333; /* Dark color for title */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+/* Additional spacing for card text */
+.card-body {
+    padding: 20px; /* More padding inside the card body */
+}
